@@ -1,0 +1,15 @@
+{
+  "name": "node-example",
+  "version": "0.0.1",
+  "engines": {
+    "node": "latest",
+    "npm": "1.4.15"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "batch-geocoder": "latest",
+    "errorhandler": "1.0.1",
+    "underscore": "latest",
+    "zombie": "latest"
+  }
+}
