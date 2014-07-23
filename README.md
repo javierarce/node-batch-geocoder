@@ -1,1 +1,4 @@
-Geocode a list of places.
+node-batch-geocoder
+===================
+
+Geocode a list of places and return a geolocated CSV file.
