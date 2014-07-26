@@ -3,9 +3,9 @@ fs  = require('fs');
 geo = require("batch-geocoder");
 _   = require("underscore");
 
-geocoder = new geo("./geocode-cache.csv");
+geocoder = new geo("./cache/cache.csv");
 
-var array = fs.readFileSync('./places.txt').toString().split('\n');
+var array = fs.readFileSync('./locations.txt').toString().split('\n');
 
 var onGeocoderFinish = function(collection) {
 
