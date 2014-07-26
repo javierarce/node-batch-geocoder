@@ -20,6 +20,6 @@ Reads a list of places and returns a geolocated CSV file.
         
 4. Run the geocoder:
 
-       node app.js
+        node app.js
       
 After the script is finished, you'll get a geocoded CSV file called ```locations.csv```.
