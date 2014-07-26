@@ -24,6 +24,6 @@ Reads a list of places and returns a geolocated CSV file.
       
 After the script is finished, you'll get a geocoded CSV file called ```locations.csv```:
 
-       | location      | latitude      | longitude  |
-       | ------------- |:-------------:| ----------:|
-       | Madrid, Spain | 40.4167754    | -3.7037902 |
+| location      | latitude      | longitude  |
+| ------------- |:-------------:| ----------:|
+| Madrid, Spain | 40.4167754    | -3.7037902 |
