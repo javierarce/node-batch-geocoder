@@ -1,4 +1,6 @@
 .DS_Store
-responses.log
 .sass-cache
+responses.log
 node_modules
+locations.txt
+locations.csv
