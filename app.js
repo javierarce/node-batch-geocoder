@@ -9,7 +9,7 @@ var array = fs.readFileSync('./locations.txt').toString().split('\n');
 
 var onGeocoderFinish = function(collection) {
 
-  var csv = "location,latitude,longitude\n";
+  var csv = "location,latitude,longitude";
 
   for (var i = 0; i < array.length; i++) {
 
@@ -17,7 +17,7 @@ var onGeocoderFinish = function(collection) {
     var place = collection[name];
 
     if (name && place) {
-      csv += '"' + name + '",' + place.lat + ',' + place.lng + '\n'
+      csv += '\n"' + name + '",' + place.lat + ',' + place.lng;
     }
 
   }
@@ -27,7 +27,7 @@ var onGeocoderFinish = function(collection) {
     if (err) {
       console.log(err);
     } else {
-      console.log("The file was saved!");
+      console.log("The file was saved!\r");
     }
 
   });
